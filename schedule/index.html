@@ -1,0 +1,229 @@
+<!--MIT License
+
+Copyright (c) 2020 Max Base
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+          <a href="https://gabrieladarza.github.io/CodeConnect2021-lightmode/"> 
+            <img class="logo" src="logo-gray.png">
+          </a>
+            <div class="time">OCTOBER 5 - 7, 2021</div>
+            <div class="countdown-time">
+                <span id="d">22</span>
+                d
+                ::
+                <span id="h">1</span>
+                h
+                ::
+                <span id="m">48</span>
+                m
+                ::
+                <span id="s">6</span>
+                s
+            </div>
+            <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 5, 2021 09:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("d").innerHTML = days;
+  document.getElementById("h").innerHTML = hours;
+  document.getElementById("m").innerHTML = minutes;
+  document.getElementById("s").innerHTML = seconds;
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+            <nav>
+                <li><a href="https://gabrieladarza.github.io/CodeConnect2021-lightmode/">Home</a></li>
+                <li><a href="https://gabrieladarza.github.io/CodeConnect2021-lightmode/schedule/">Agenda</a></li>
+                <li><a href="https://gabrieladarza.github.io/CodeConnect2021-trial-2/speakers/">Speakers</a></li>
+                <li><a href="https://vmwarecodeconnect.github.io/CodeConnect2021/hackathon">Hackathon</a></li>
+                <li><a href="https://vmwarecodeconnect.github.io/CodeConnect2021/faqs">FAQ</a></li>
+                <li><a href="https://code.vmware.com/join">Join</a></li>
+            </nav>
+        </header>
+          <hr>
+        <hr class="gradient">
+        <section class="content">
+            <div class="container1">
+                <h1>Code Connect 2021 Agenda </h1>
+                <p>
+                    <b> AMERICAS </b>|  October 5 – 6, 2021 <br>
+                    <b> ASIA PACIFIC </b> | October 6 – 7, 2021 <br>
+                    <b> EMEA </b> | October 6 – 7,  2021 <br>
+                </p>
+                <br>
+            </div>
+        </section>
+      <div class="container2">
+        <div class="container-card">
+          <div class="card">
+            <div class="card-header">
+              <img src="vmworld_agenda.jpg" alt="agenda" />
+            </div>
+            <div class="card-body">
+              <h>
+                Agenda
+              </h>
+              <br>
+              <p>
+                View our full calendar of Kubernetes and IT Automation sessions!  
+              </p>
+          <a href="https://gabrieladarza.github.io/CodeConnect2021-lightmode/schedule/" class="text-decoration-none"> LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="fa fa-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+          </a>
+         </div>
+        </div>
+          <div class="card">
+            <div class="card-header">
+              <img src="vmworld_hackathon.jpg" alt="hackathon" />
+            </div>
+            <div class="card-body">
+              <h>
+                Hackathon
+              </h>
+                <br>
+              <p>
+                Put your coding and collaboration skills to work!  
+              </p>
+              <a href="#" class="text-decoration-none"> LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="fa fa-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+          </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img src="vmworld_connect.jpg" alt="connect" />
+            </div>
+            <div class="card-body">
+              <h>
+                Connect
+              </h>
+              <br>
+              <p>
+                Join VMware {code} and network with our growing {code} community.
+              </p>
+              <a href="https://code.vmware.com/join" target="_blank" class="text-decoration-none"> LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="fa fa-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+          </a>
+            </div>
+          </div> 
+       </div>
+     </div>   
+        <section class="speakers">
+            <h1>Meet our Team!</h1>
+            <ul class="speaker-list">
+                <li>
+                    <img alt="Gabi Darza" src="gabi.png">
+                    <h3>"The best is yet to come"</h3>
+                    <h4>Gabi Darza</h4>
+                    <h5>Community Manager, VMware</h5>
+                </li>
+                <li>
+                    <img alt="Kripa Sitaraman" src="kripa.png">
+                    <h3>"This year- bigger and better than the last. Looking forward to connecting with everyone"</h3>
+                    <h4>Kripa Sitaraman</h4>
+                    <h5>Community Manager, VMware</h5>
+                </li>
+                <li>
+                    <img alt="Eric Nielsen" src="ericnielsen.jpeg">
+                    <h3>"Will I run another lab this year? Guess you are just going to have to wait and see"</h3>
+                    <h4>Eric Nielsen</h4>
+                    <h5>Senior Director, Social Meda and Communities</h5>
+                </li>
+            </ul>
+        </section>
+        <!-- <hr class="gradient"> -->
+        <!-- <hr> -->
+        <section class="attends">
+            <h2>#CodeConnect at VMworld 2021</h2>
+
+            <h4>Learn from the best</h4>
+            <p>Two tracks, two days, dozens of live sessions from subject matter experts in their fields</p>
+
+            <h4>Coding, customized</h4>
+            <p>Choose sessions in two live tracks and customize your learning.</p>
+
+            <h4>Connect beyond content</h4>
+            <p>Networking and learning opportunities, get to know the VMware{code} community</p>
+
+            <h4>Have fun along the way</h4>
+            <p>Coding is meant to be fun! Don't take yourself too seriously, grab a beer, and come ready to learn</p>
+        </section>
+        <!-- <hr> -->
+        <section class="subscribe">
+            <h2> Connect With Us! </h2>
+            <p>
+                Join VMware {code} for updates to stay in the loop with our community.    
+            </p>
+            <br>
+            <a href="https://code.vmware.com/join" class="button" target="_blank">
+                <span>Join for updates</span>
+            </a>
+        </section>
+     <hr>
+     <hr class="gradient">   
+        <section="container3">
+           <footer> 
+            <ul class="linear-list">
+                <li>
+                    <a href="https://twitter.com/vmwarecode">
+                        <img src="https://githubuniverse.com/assets/img/svgs/twitter.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/vmware/">
+                        <img src="https://githubuniverse.com/assets/img/svgs/linkedin.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/vmware/?hl=en">
+                        <img src="https://githubuniverse.com/assets/img/svgs/instagram.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/vmwarecode">
+                        <img src="https://githubuniverse.com/assets/img/svgs/youtube.svg">
+                    </a>
+                </li>
+            </ul>
+            <li>
+                <a href="https://bit.ly/3o9lkUB">Code of Conduct</a>
+            </li>
+                <br>
+            <a href="">
+                <img class="logo" src="graycode-logo.png">
+            </a>
+            <p class="copyright">© 2021 VMware {code}. All rights reserved.</p>
+        </footer>
+       </section>     
+    </body>
+</html>

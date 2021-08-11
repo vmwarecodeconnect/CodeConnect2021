@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!-- MIT License
+
+Copyright (c) 2020 Max Base -->
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="whitecode.png">
+            <div class="time">October 5-6, 2021</div>
+            <div class="countdown-time">
+                <span id="d">22</span>
+                d
+                ::
+                <span id="h">1</span>
+                h
+                ::
+                <span id="m">48</span>
+                m
+                ::
+                <span id="s">6</span>
+                s
+            </div>
+            <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 5, 2021 09:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("d").innerHTML = days;
+  document.getElementById("h").innerHTML = hours;
+  document.getElementById("m").innerHTML = minutes;
+  document.getElementById("s").innerHTML = seconds;
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+            <nav>
+                <li><a href="https://vmwarecodeconnect.github.io/CodeConnect2021/">Home</a></li>
+                <li><a href="">Schedule</a></li>
+                <li><a href="https://gabrieladarza.github.io/CodeConnect2021-trial-2/speakers/">Speakers</a></li>
+                <li class="active"><a href="https://vmwarecodeconnect.github.io/CodeConnect2021/sponsors">Sponsors</a></li>
+                <li><a href="https://vmwarecodeconnect.github.io/CodeConnect2021/faqs">FAQ</a></li>
+                <li><a href="https://code.vmware.com/join">Join</a></li>
+                <li><a href="https://vmwarecodeconnect.github.io/CodeConnect2021/hackathon">Hackathon</a></li>
+            </nav>
+        </header>
+        <section class="content content-small">
+            <div class="container">
+                <h1 class="gradient-text">Sponsors</h1>
+            </div>
+        </section>
+       <hr>
+        <footer>
+            <ul class="linear-list">
+                <li>
+                    <a href="https://www.vmworld.com/content/dam/digitalmarketing/vmworld/pdf/VMworld-Event-Code-of-Conduct-Policy-June2020.pdf">Code of Conduct</a>
+                </li>
+            </ul>
+            <a href="">
+                <img class="logo" src="logowhite.png">
+            </a>
+            <p class="copyright">© 2021 VMware {code}. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
+    </body>    
+</html>        
