@@ -642,10 +642,12 @@ section.content2 {
   font-size: 20px;
   color: #000000;
   text-align: center;
+  line-height: 20px;
+  margin: 0 0 20px;
 }
 .card-body p {
   font-size: 16px;
-  margin: 0 0 40px;
+  margin: 0 0 20px;
   text-align: center;
   line-height: 20px;
 }
