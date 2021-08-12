@@ -555,7 +555,7 @@ section.profile .social svg {
     fill: currentColor;
     margin-right: 25px;
 }
-.container {
+div.container {
     width: 90%;
     padding: 45px;
     margin: auto;
