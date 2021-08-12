@@ -345,7 +345,8 @@ section.content p {
 .container1 {
     width: 100%;
     margin: auto;
-    padding: 45px
+    padding: 45px;
+    width: 90%;
 }
 .container3 {
     width: 100%;
@@ -390,9 +391,10 @@ hr.gradient {
     margin-top:0px;
 }
 hr {
-    background-color: #007AB8;
-    height: 1px;
-    border: none;
+    background-color: #007AB8);
+    height: 8px;
+    margin-bottom: 0px;
+    margin-top:0px;
 }
 section.subscribe {
     text-align: center;
@@ -559,6 +561,8 @@ div.container {
     width: 90%;
     padding: 45px;
     margin: auto;
+    background-color: #F7F7F7;
+    
 }
 div.polaroid {
   width: auto;
