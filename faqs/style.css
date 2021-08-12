@@ -402,7 +402,8 @@ section.faq h1 {
     margin-bottom: 39px;
 }
 ul.faq-question {
-
+    padding-left: 10%;
+    padding-right: 10%;
 }
 ul.faq-question li {
 
