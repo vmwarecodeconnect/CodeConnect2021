@@ -514,6 +514,7 @@ ul.speaker-list li h5 {
     font-size: 16px;
     color: #565656;
     font-weight: normal;
+    line-height: 15px;
 }
 section.speakers h1 {
     font-size: 40px;
