@@ -551,6 +551,7 @@ section.profile h2 {
 }
 section.profile .social {
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 section.profile .social svg {
     height: 24px;
