@@ -555,6 +555,11 @@ section.profile .social svg {
     fill: currentColor;
     margin-right: 25px;
 }
+.container {
+    width: 90%;
+    padding: 45px;
+    margin: auto;
+}
 div.polaroid {
   width: auto;
   background-color: white;
