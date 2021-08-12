@@ -652,6 +652,12 @@ section.content2 {
   text-align: center;
   line-height: 20px;
 }
+.card-body h2 {
+  font-size: 12px;
+  margin: 0 0 20px;
+  text-align: center;
+  line-height: 10px;
+}
 .user {
   display: flex;
   margin-top: auto;
