@@ -388,14 +388,11 @@ ul.sponsor-list li a {
 hr.gradient {
     background-color: #007AB8);
     height: 8px;
-    margin-bottom: 0px;
-    margin-top:0px;
 }
 hr {
-    background-color: #007AB8);
-    height: 8px;
-    margin-bottom: 0px;
-    margin-top:0px;
+    background-color: #007AB8;
+    height: 1px;
+    border: none;
 }
 section.subscribe {
     text-align: center;
@@ -563,7 +560,7 @@ div.container {
     width: 90%;
     padding: 45px;
     margin: auto;
-    background-color: #F7F7F7;
+    background-color: #FFFFFF;
     
 }
 div.polaroid {
