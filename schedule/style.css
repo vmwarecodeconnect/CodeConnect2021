@@ -623,7 +623,8 @@ section.content2 {
 .user-info small {
   color: #545d7a;
 }
-.container-agenda {
+
+div.container-agenda {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -631,7 +632,7 @@ section.content2 {
   padding-right: 10px;
 }
 
-h2 {
+div.container-agenda h2 {
   font-size: 26px;
   margin: 20px 0;
   text-align: center;
@@ -639,7 +640,8 @@ h2 {
     font-size: 0.5em;
   }
 }
-.responsive-table {
+
+ul.responsive-table {
   li {
     border-radius: 3px;
     padding: 25px 30px;
