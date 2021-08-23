@@ -313,6 +313,12 @@ section.content p {
     margin: auto;
     padding: 45px
 }
+.container4 h2{
+    font-size: 40px;
+    color: #000000;
+    line-height: 20px;
+    font-weight: normal;
+}
 ul.sponsor-list {
     float: left;
     width: 100%;
