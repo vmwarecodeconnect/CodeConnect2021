@@ -642,6 +642,7 @@ div.container-agenda h2 {
 }
 
 ul.responsive-table {
+}
   ul.responsive-table .li {
     border-radius: 3px;
     padding: 25px 30px;
@@ -649,29 +650,29 @@ ul.responsive-table {
     justify-content: space-between;
     margin-bottom: 25px;
   }
-  .table-header {
+  ul.responsive-table .table-header {
     background-color: #95A5A6;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
   }
-  .table-row {
+  ul.responsive-table .table-row {
     background-color: #ffffff;
     box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
   }
-  .col-1 {
+  ul.responsive-table .col-1 {
     flex-basis: 10%;
   }
-  .col-2 {
+  ul.responsive-table .col-2 {
     flex-basis: 35%;
   }
-  .col-3 {
+  ul.responsive-table .col-3 {
     flex-basis: 15%;
   }
-  .col-4 {
+  ul.responsive-table .col-4 {
     flex-basis: 15%;
   }
-  .col-5 {
+  ul.responsive-table .col-5 {
     flex-basis: 15%;
   }
   
