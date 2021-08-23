@@ -316,6 +316,7 @@ section.content p {
 .container4 h2{
     font-size: 40px;
     color: #000000;
+    text-align: center;
     line-height: 20px;
     font-weight: normal;
 }
