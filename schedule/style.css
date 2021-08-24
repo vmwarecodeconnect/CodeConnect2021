@@ -700,7 +700,7 @@ li {
           display: flex;
           padding: 10px 0;
           &:before {
-            color: #6C7A89;
+            color: #1d428a;
             padding-right: 10px;
             content: attr(data-label);
             flex-basis: 50%;
