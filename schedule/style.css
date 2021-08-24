@@ -647,7 +647,7 @@ div.container-agenda h2 {
     font-size: 0.5em;
   }
 }
-ul.responsive-table{
+
     li {
         border-radius: 3px;
         padding: 25px 30px;
@@ -685,7 +685,7 @@ ul.responsive-table{
         .table-header {
             display: none;
         }
-        .table-row{
+        .table-row {
 
         }
         li {
@@ -709,4 +709,4 @@ ul.responsive-table{
       }
     }
   
-}
+
