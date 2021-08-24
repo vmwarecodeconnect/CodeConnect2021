@@ -682,29 +682,29 @@ li {
 }
 
 @media all and (max-width: 767px) {
-    .table-header {
-        display: none;
-    }
-    .table-row {
+.table-header {
+    display: none;
+}
+.table-row {
 
-    }
-    li {
-        display: block;
-    }
-    .col {
+}
+li {
+    display: block;
+}
+.col {
 
-        flex-basis: 100%;
+    flex-basis: 100%;
 
-    }
-    .col {
-          display: flex;
-          padding: 10px 0;
-          &:before {
-            color: #1d428a;
-            padding-right: 10px;
-            content: attr(data-label);
-            flex-basis: 50%;
-            text-align: right;
+}
+.col {
+      display: flex;
+      padding: 10px 0;
+      &:before {
+        color: #1d428a;
+        padding-right: 10px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right;
     }
   }
 }
