@@ -311,7 +311,7 @@ section.content p {
 .container4 {
     width: 100%;
     margin: auto;
-    padding: 45px
+    padding: 45px;
 }
 .container4 h2{
     font-size: 40px;
@@ -323,6 +323,7 @@ section.content p {
 .container5 {
     width: 100%;
     margin: auto;
+    padding: 45px;
     bakground-color: #F7F7F7;
 }
 ul.sponsor-list {
