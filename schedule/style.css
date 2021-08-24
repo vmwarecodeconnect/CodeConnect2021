@@ -664,7 +664,12 @@ div.container-agenda2 {
   padding-right: 10px;
   background-color: #FFFFFF;
 }
-
+div.container-agenda2 h2 {
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: left;
+  font-weight: normal;
+}
 div.container-agenda {
   max-width: 1000px;
   margin-left: auto;
