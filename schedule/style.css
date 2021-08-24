@@ -326,7 +326,7 @@ div.container5 {
     padding: 45px;
     background-color: #F7F7F7;
 }
-.container5 h2{
+div.container5 h2{
     font-size: 40px;
     color: #000000;
     text-align: center;
@@ -654,7 +654,7 @@ div.container-agenda {
 }
 
 div.container-agenda h2 {
-  font-size: 26px;
+  font-size: 20px;
   margin: 20px 0;
   text-align: left;
   font-weight: normal;
