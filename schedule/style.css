@@ -333,6 +333,19 @@ div.container5 h2{
     line-height: 20px;
     font-weight: normal;
 }
+div.container6 {
+    width: 100%;
+    margin: auto;
+    padding: 45px;
+    background-color: #FFFFFF;
+}
+div.container6 h2{
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+    font-weight: normal;
+}
 ul.sponsor-list {
     float: left;
     width: 100%;
@@ -642,6 +655,14 @@ section.content2 {
 }
 .user-info small {
   color: #545d7a;
+}
+div.container-agenda2 {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #FFFFFF;
 }
 
 div.container-agenda {
