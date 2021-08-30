@@ -454,17 +454,22 @@ ul.speaker-list li h3 {
     padding-right: 15%;
     font-size: 20px;
     color: #000000;
-    margin-bottom: 4px;
-    line-height: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    line-height: 25px;
+    font-weight: normal;
 }
 ul.speaker-list li h4 {
     font-size: 16px;
     color: #565656;
-    line-height: 20px;
+    line-height: 10px;
+    font-weight: normal;
 }
 ul.speaker-list li h5 {
     font-size: 16px;
     color: #565656;
+    font-weight: normal;
+    line-height: 15px;
 }
 section.speakers h1 {
     font-size: 40px;
