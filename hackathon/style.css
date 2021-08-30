@@ -313,6 +313,18 @@ section.content p {
     width: 100%;
     margin: auto;
 }
+.container4 {
+    width: 100%;
+    margin: auto;
+    padding: 45px;
+}
+.container4 h2{
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+    font-weight: normal;
+}
 ul.sponsor-list {
     float: left;
     width: 100%;
@@ -567,6 +579,14 @@ section.content2 {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 300px;
+}
+.card-schedule {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: auto;
 }
 .card-header img {
   width: 100%;
