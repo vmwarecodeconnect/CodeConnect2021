@@ -569,7 +569,7 @@ section.content2 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 30px;
+  margin-top: 30px;
   background-color: #FFFFFF;
 }
 .card {
