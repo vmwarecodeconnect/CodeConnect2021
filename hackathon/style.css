@@ -258,10 +258,15 @@ section.attends h2 {
 section.attends h4 {
     font-size: 20px;
     line-height: 30px;
+    font-weight: normal;
 }
 section.attends p {
     color: #565656;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 20px;
+    font-weight: normal;
 }
 section.content-small {
     height: auto !important;
