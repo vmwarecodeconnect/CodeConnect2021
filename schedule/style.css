@@ -702,8 +702,9 @@ li {
     margin-bottom: 25px;
 }
 .table-header {
-    background-color: #95A5A6;
+    background-color: #007ab8;
     font-size: 14px;
+    font-color: white;
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
