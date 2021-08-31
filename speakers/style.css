@@ -236,7 +236,7 @@ section.speakers {
     display: inline-block;
     width: 100%;
     height: auto;
-    background-color: #F7F7F7;
+    background-color: #FFFFFF;
 }
 section.attends {
     text-align: center;
@@ -494,21 +494,26 @@ ul.speaker-list li h3 {
     color: #000000;
     margin-bottom: 4px;
     line-height: 30px;
+    font-weight: normal;
 }
 ul.speaker-list li h4 {
-    font-size: 16px;
+    font-size: 18px;
     color: #565656;
+    margin: 15px;
+    font-weight: normal;
     line-height: 20px;
 }
 ul.speaker-list li h5 {
-    font-size: 16px;
+    font-size: 12px;
     color: #565656;
+    font-weight: normal;
+    margin-bottom: 15px;
 }
 section.speakers h1 {
     font-size: 40px;
     color: #000000;
     line-height: 96px;
-    margin-top: 45px;
+    margin-top: 10px;
     margin-bottom: 25px;
 }
 section.profile {
