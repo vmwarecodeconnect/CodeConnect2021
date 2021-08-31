@@ -607,6 +607,14 @@ section.content2 {
   align-items: center;
   background-color: #FFFFFF;
 }
+.card-schedule {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: auto;
+}
 .card {
   margin: 10px;
   background-color: #fff;
