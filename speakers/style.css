@@ -9,19 +9,6 @@
          url('metropolis-light.woff') format('woff');
     font-weight: normal; 
     font-style: normal;
-}    
-
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}
-
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-}   
 
 }
 * {
@@ -40,7 +27,6 @@ body {
     background: #FFFFFF;
     color: #565656;
     font-family: "metropolislight";
-    margin: 0px;
 }
 img {
     border: 0px;
@@ -60,7 +46,7 @@ a.underline {
 }
 .gradient-subtext {
     background: -webkit-linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
-    -webkit-background-clip: text; 
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .gradient-text {
@@ -118,24 +104,6 @@ section.updates p.signup-text {
 section.updates p.follow-text {
     margin-top: 35px;
 }
-.container3 {
-    width: 100%;
-    margin: auto;
-    padding: 45px
-}
-.container4 {
-    width: 100%;
-    margin: auto;
-    padding: 45px
-}
-.container4 h2 {
-    font-size: 40px;
-    margin-bottom: 60px;
-    margin-top: 45px;
-    text-align: center;
-    color: #000000;
-    font-weight: normal;
-}
 footer {
     text-align: center;
     display: inline-block;
@@ -158,21 +126,15 @@ footer .copyright {
     display: inline-block;
     margin-bottom: 30px;
 }
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-}
 ul.linear-list {
-
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
 }
 ul.linear-list li {
     display: inline-block;
     padding: 10px;
+    text-align: center;
 }
 header {
     display: inline-block;
@@ -267,7 +229,6 @@ section.sponsors {
     width: 100%;
     height: auto;
     background-color: #FFFFFF;
-    padding: 120px 0;
     /* border-top: 1px solid rgba(66,82,109,0.5); */
 }
 section.speakers {
@@ -275,14 +236,14 @@ section.speakers {
     display: inline-block;
     width: 100%;
     height: auto;
-    background-color: #FFFFFF;
+    background-color: #F7F7F7;
 }
 section.attends {
     text-align: center;
     display: inline-block;
     width: 100%;
     height: auto;
-    background-color: #F7F7F7;
+    background-color: #FFFFFF;
     background-position: bottom/left;
     background-attachment: cover;
     background-repeat: no-repeat;
@@ -297,13 +258,10 @@ section.attends h2 {
 section.attends h4 {
     font-size: 20px;
     line-height: 30px;
-    font-weight: normal;
-    color: #000000;
 }
 section.attends p {
     color: #565656;
     margin-bottom: 50px;
-    line-height: 20px;
 }
 section.content-small {
     height: auto !important;
@@ -327,7 +285,6 @@ section.sponsors h4 {
     font-size: 40px;
     color: #000000;
     line-height: 96px;
-    font-weight: normal;
 }
 section.content h1 {
     font-size: 40px;
@@ -345,11 +302,49 @@ section.content p {
 .container1 {
     width: 100%;
     margin: auto;
-    padding: 45px
+    padding: 45px;
 }
-.container3 {
+.container2 {
     width: 100%;
     margin: auto;
+}
+.container4 {
+    width: 100%;
+    margin: auto;
+    padding: 45px;
+}
+.container4 h2{
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+    font-weight: normal;
+}
+div.container5 {
+    width: 100%;
+    margin: auto;
+    padding: 45px;
+    background-color: #F7F7F7;
+}
+div.container5 h2{
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+    font-weight: normal;
+}
+div.container6 {
+    width: 100%;
+    margin: auto;
+    padding: 45px;
+    background-color: #FFFFFF;
+}
+div.container6 h2{
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+    font-weight: normal;
 }
 ul.sponsor-list {
     float: left;
@@ -361,7 +356,7 @@ ul.sponsor-list li {
     width: 25%;
     float: left;
     margin-bottom: 15px;
-    width: calc(21% - 16px);
+    width: calc(25% - 16px);
 }
 ul.sponsor-list li img {
     text-align: center;
@@ -386,8 +381,6 @@ ul.sponsor-list li a {
 hr.gradient {
     background-color: #007AB8);
     height: 8px;
-    margin-bottom: 0px;
-    margin-top:0px;
 }
 hr {
     background-color: #007AB8;
@@ -499,22 +492,17 @@ ul.speaker-list li h3 {
     padding-right: 15%;
     font-size: 20px;
     color: #000000;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    line-height: 25px;
-    font-weight: normal;
+    margin-bottom: 4px;
+    line-height: 30px;
 }
 ul.speaker-list li h4 {
     font-size: 16px;
     color: #565656;
-    line-height: 10px;
-    font-weight: normal;
+    line-height: 20px;
 }
 ul.speaker-list li h5 {
     font-size: 16px;
     color: #565656;
-    font-weight: normal;
-    line-height: 15px;
 }
 section.speakers h1 {
     font-size: 40px;
@@ -597,6 +585,7 @@ section.content2 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
   background-color: #FFFFFF;
 }
 .card {
@@ -606,6 +595,14 @@ section.content2 {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 300px;
+}
+.card-schedule {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: auto;
 }
 .card-header img {
   width: 100%;
@@ -643,20 +640,12 @@ section.content2 {
   font-size: 20px;
   color: #000000;
   text-align: center;
-  line-height: 20px;
-  margin: 0 0 20px;
 }
 .card-body p {
   font-size: 16px;
-  margin: 0 0 20px;
+  margin: 0 0 40px;
   text-align: center;
   line-height: 20px;
-}
-.card-body h2 {
-  font-size: 12px;
-  margin: 0 0 20px;
-  text-align: center;
-  line-height: 10px;
 }
 .user {
   display: flex;
@@ -675,3 +664,95 @@ section.content2 {
 .user-info small {
   color: #545d7a;
 }
+div.container-agenda2 {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #FFFFFF;
+}
+div.container-agenda2 h2 {
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: left;
+  font-weight: normal;
+}
+div.container-agenda {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #F7F7F7;
+}
+
+div.container-agenda h2 {
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: left;
+  font-weight: normal;
+}
+
+li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.table-header {
+    background-color: #007ab8;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+.col-1 {
+    flex-basis: 10%;
+}
+.col-2 {
+    flex-basis: 30%;
+}
+.col-3 {
+    flex-basis: 20%;
+}
+.col-4 {
+    flex-basis: 15%;
+}
+.col-5 {
+    flex-basis: 15%;
+}
+
+@media all and (max-width: 767px) {
+.table-header {
+    display: none;
+}
+.table-row {
+
+}
+li {
+    display: block;
+}
+.col {
+
+    flex-basis: 100%;
+
+}
+.col {
+      display: flex;
+      padding: 10px 0;
+      &:before {
+        color: #1d428a;
+        padding-right: 10px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right;
+    }
+  }
+}
+  
