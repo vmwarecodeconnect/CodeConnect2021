@@ -704,7 +704,7 @@ li {
 .table-header {
     background-color: #007ab8;
     font-size: 14px;
-    font-color: white;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
