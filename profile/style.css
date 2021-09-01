@@ -540,12 +540,22 @@ section.profile .details {
     float: left;
 }
 section.profile h1 {
-    font-size: 40px;
-    margin-bottom: 8px;
+    font-size: 30px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 section.profile h2 {
     color: #565656;
-    margin-bottom: 25px;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+div.content p {
+    color: #565656;
+    font-size: 15px;
+    font-family: "metropolislight";
+    line-height: 20px;
 }
 section.profile .social {
     margin-top: 25px;
