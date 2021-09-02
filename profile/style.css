@@ -530,7 +530,8 @@ section.profile {
 }
 section.profile .avatar {
     float: left;
-    width: 250px;
+    width: 100%;
+    max-width: 200px;
     border-radius: 10px;
 }
 section.profile .details {
