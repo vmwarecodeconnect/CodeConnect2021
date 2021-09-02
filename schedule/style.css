@@ -695,11 +695,7 @@ div.container-agenda h2 {
 }
 
 li {
-    border-radius: 3px;
-    padding: 25px 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
+    list-style: none;
 }
 .table-header {
     background-color: #007ab8;
