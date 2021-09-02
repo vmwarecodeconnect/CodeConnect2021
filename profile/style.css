@@ -535,9 +535,9 @@ section.profile .avatar {
     border-radius: 10px;
 }
 section.profile .details {
-    width: calc(100% - 275px);
-    margin-left: 25px;
     float: left;
+    width: calc(100% - 275px)
+    margin-left: 25px   
 }
 section.profile h1 {
     font-size: 30px;
