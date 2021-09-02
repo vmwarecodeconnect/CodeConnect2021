@@ -693,10 +693,6 @@ div.container-agenda h2 {
   text-align: left;
   font-weight: normal;
 }
-
-li {
-    list-style: none;
-}
 .table-header {
     background-color: #007ab8;
     font-size: 14px;
