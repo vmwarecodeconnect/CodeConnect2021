@@ -551,6 +551,7 @@ section.profile h2 {
     text-align: left;
     font-size: 16px;
     margin-bottom: 15px;
+    font-weight: normal;
 }
 div.content p {
     color: #565656;
