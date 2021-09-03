@@ -533,11 +533,11 @@ section.profile .avatar {
     width: 100%;
     max-width: 200px;
     border-radius: 10px;
+    margin-right: 20px;
 }
 section.profile .details {
     float: left;
-    width: calc(100% - 275px)
-    margin-left: 25px   
+    width: 70%;   
 }
 section.profile h1 {
     font-size: 30px;
