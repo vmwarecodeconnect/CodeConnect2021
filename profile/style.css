@@ -526,7 +526,7 @@ section.profile {
     float: left;
     width: 100%;
     height: auto;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     background-color: #FAFAFA;
 }
 section.profile .avatar {
@@ -570,6 +570,7 @@ section.profile .social svg {
 div.container {
     width: 90%;
     margin: auto;
+    margin-top: 15px;
     background-color: #FAFAFA;
     
 }
