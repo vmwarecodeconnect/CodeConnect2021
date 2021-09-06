@@ -742,7 +742,7 @@ li {
     flex-basis: 15%;
 }
 .col-5 {
-    flex-basis: 15%;
+    flex-basis: 18%;
 }
 
 @media all and (max-width: 767px) {
