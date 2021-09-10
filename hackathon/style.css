@@ -386,6 +386,7 @@ section.subscribe p {
     font-size: 16px;
     margin-bottom: 20px;
     margin-top: 20px;
+    line-height: 20px;
 }
 ul.blog-utilites {
     float: right;
